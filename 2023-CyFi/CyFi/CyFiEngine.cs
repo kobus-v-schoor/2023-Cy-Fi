@@ -176,7 +176,7 @@ namespace CyFi
 
             Bot? playerObject = null;
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 4; i++)
             {
                 if (CommandQueue.TryDequeue(out BotCommand? playerAction)) // perhaps only process commands for a certain duration of time, after that process the physics updates. Do this instead of the tick timer
                 {
